@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.candidate-image{
+    height: 200px;
+    width: 200px;
+    margin-bottom: -40px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
+}
+
+.header{
+    background-color: rgb(0, 134, 105);
+    padding-right:5%;
+    padding-left: 5%;
+    padding-top: 4%;
+    color: white;
+    display: flex;
+}
+
+.body-panel{
+    background-color: rgb(235, 235, 235);
+    padding: 5%;
+}
+
+.top-container, .middle-container{
+    display: flex;
+    justify-content: space-between
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between
+}
+
+.card{
+    width: 30%;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.professional-exp{
+    padding-right: 2%;
+    padding-left: 2%;
+    vertical-align: middle;
+}
+
+.title, .first-exp, .languages, .on-web, .informations, .bottom-container{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(0, 134, 105)
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 68, 53)
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17;
+}
